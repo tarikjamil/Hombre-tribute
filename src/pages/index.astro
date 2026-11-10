@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import bodyHtml from '../mirror/body.html?raw';
+---
+
+<BaseLayout>
+  <Fragment set:html={bodyHtml} />
+</BaseLayout>

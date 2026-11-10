@@ -1,0 +1,14 @@
+{
+  "siteId": "63af52b71504f950bae436f8",
+  "siteName": "Hombre Tribute",
+  "shortName": "hombre-tribute",
+  "workspaceId": "6332cf104bdcdf01092d8c36",
+  "domains": [
+    "hombre-tribute.com",
+    "www.hombre-tribute.com"
+  ],
+  "mcp": {
+    "server": "plugin-webflow-webflow",
+    "url": "https://mcp.webflow.com/mcp"
+  }
+}

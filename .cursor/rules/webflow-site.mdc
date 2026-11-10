@@ -1,0 +1,26 @@
+---
+description: Bind this repo to the Hombre Tribute Webflow site for all MCP work
+alwaysApply: true
+---
+
+# Webflow site binding
+
+This repository is permanently connected to one Webflow site. Do not ask which site to use.
+
+## Canonical site
+
+| Field | Value |
+|-------|-------|
+| Display name | Hombre Tribute |
+| Site ID | `63af52b71504f950bae436f8` |
+| Short name | `hombre-tribute` |
+| Workspace ID | `6332cf104bdcdf01092d8c36` |
+| Domains | `hombre-tribute.com`, `www.hombre-tribute.com` |
+
+## Agent rules
+
+1. Use Webflow MCP (`plugin-webflow-webflow`) for all Webflow operations.
+2. Always pass site ID `63af52b71504f950bae436f8` (or read it from `webflow.json` at the repo root).
+3. Do not call `list_sites` to choose a site unless the bound site ID fails or the user explicitly asks to switch sites.
+4. If Webflow MCP reports `needsAuth`, call `mcp_auth` once, then continue with the bound site ID. Do not ask the user to pick a site after auth.
+5. Never publish without an explicit user confirmation that includes the word publish intent.
