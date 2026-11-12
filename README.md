@@ -18,6 +18,14 @@ npm run build
 npm run preview
 ```
 
+## Deploy (Cloudflare Pages)
+
+```bash
+npm run deploy
+```
+
+Live: [https://hombre-tribute.pages.dev](https://hombre-tribute.pages.dev)
+
 ## Project notes
 
 - Bound Webflow site ID lives in [`webflow.json`](webflow.json) (`63af52b71504f950bae436f8`).
